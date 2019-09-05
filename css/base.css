@@ -1,0 +1,50 @@
+
+.center{
+	margin:0 auto;
+	width: 1190px;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float: right;
+}
+body{
+	background-color: #f6f6f6;
+}
+ul{
+	padding: 0;
+	margin:0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #999;
+	font-size: 12px;
+}
+/*header部分start*/
+header{
+	height: 80px;
+    background-color: #020000;
+}
+
+/*header部分结束*/
+
+
+/*快速导航栏 部分*/
+.nav{
+	height: 30px;
+	background-color: #e3e4e5;
+}
+
+.nav li{
+	float: left;
+	line-height: 30px;
+}
+.icon-location{
+	color: #ccc;
+}
+.nav .fr li{
+	padding:0 10px;
+	border-right: 1px solid #000;
+}
