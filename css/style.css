@@ -75,3 +75,6 @@
 .icon-ctrl:before {
   content: "\ea50";
 }
+.icon-camera:before {
+  content: "\e90f";
+}
