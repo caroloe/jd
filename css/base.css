@@ -9,8 +9,12 @@
 .fr{
 	float: right;
 }
+.f10{
+	color: #f10215;
+}
 body{
 	background-color: #f6f6f6;
+	min-width: 1200px;
 }
 ul{
 	padding: 0;
@@ -35,16 +39,64 @@ header{
 .nav{
 	height: 30px;
 	background-color: #e3e4e5;
+	border: 1px solid #ddd;
 }
 
 .nav li{
 	float: left;
 	line-height: 30px;
 }
-.icon-location{
-	color: #ccc;
+.city{
+	margin-left: 190px;
+	padding: 0 5px;
 }
-.nav .fr li{
-	padding:0 10px;
-	border-right: 1px solid #000;
+.icon-location{
+	font-size:12px;
+	line-height: 30px;
+	color: #f10215;
+}
+.line{
+	width: 1px;
+	height: 10px;
+	margin: 10px 10px;
+	background-color: #ccc;
+}
+.nav li a:hover{
+	color: #f10215;
+}
+/*快速导航栏部分 end*/
+
+/*中间部分 start*/
+.middle{
+	height: 140px;
+	position: relative;
+	padding-top: 25px;
+
+
+	/*text-align: center;*/
+}
+.logo{
+	background-color: #fff;
+	width:190px;
+	height: 170px;
+	position: absolute;
+	left: 0;
+	top: -30px;
+}
+.form{
+	display: inline-block;
+	width: 550px;
+	height: 35px;
+	background-color: #ccc;
+	margin-left: 320px;
+
+} 
+.cart{
+	width: 188px;
+	height: 33px;
+	background-color: #fff;
+	display: inline-block;
+	text-align: center;
+	border: 1px solid #ddd;
+	line-height: 33px;
 }
